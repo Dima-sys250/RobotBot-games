@@ -43,7 +43,6 @@ body {
     text-decoration: none;
     color: white;
     font-size: 16px;
-    text-align: right;
     padding: 0px 10px;
 }
 
@@ -259,4 +258,45 @@ body {
     position: relative;
     top: -100px;
     left: 150px;
+}
+
+.nav-menu-title {
+    font-size: 25px;
+}
+
+@media(max-width:1200px) {
+    .nav-menu {
+        height: fit-content;
+        padding: 10px;
+        top: 0;
+    }
+
+    .nav {
+        float: none;
+        display: block;
+    }
+
+    .nav-menu-right {
+        display: block;
+        line-height: 50PX;
+    }
+
+    .header {
+        margin-top: 200px;
+        height: 100vh;
+    }
+
+
+    .game-card-img {
+        display: block;
+        margin: auto;
+        width: 100%;
+
+    }
+
+    .game-card-content {
+        display: block;
+        width: 100%;
+
+    }
 }
